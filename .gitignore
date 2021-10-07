@@ -1,0 +1,27 @@
+*.dll
+*.exe
+*.config
+*.cmd
+*.db
+*.pdb
+
+# generated csharp files
+*.cs
+
+# materials folder, as the VTZ are beigin downloaded directly from GIT(ea)
+Server/Materials
+
+# Markdown Readme
+*.md
+
+# Folder
+TaskProcessors/
+ClientCode/
+**/Temp/
+**/Logs/
+**/materials_index/
+
+# ignore MSBuild task output
+App/Materials/Models/*.vtz
+App/Prices/prices.xml
+

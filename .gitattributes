@@ -1,0 +1,6 @@
+# Set the default behavior, in case people don't have core.autocrlf set.
+*.xml text eol=crlf
+*.json text eol=crlf
+*.proj text eol=crlf
+
+*.vtz -crlf -diff -merge
